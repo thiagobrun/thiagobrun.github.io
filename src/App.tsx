@@ -1,8 +1,19 @@
+import "./app.css";
+import About from "./components/about";
+import Header from "./components/header/index";
+import Home from "./components/home/index";
+import Skills from "./components/skills";
+
 function App() {
   return (
-    <div>
-      <p>Hello World</p>
-    </div>
+    <>
+      <Header />
+      <main className="main">
+        <Home />
+        <About />
+        <Skills />
+      </main>
+    </>
   );
 }
 
